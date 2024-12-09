@@ -5,9 +5,9 @@ namespace ActivitatsT3
     {
         public static void Main()
         {
-            Book llibre1 = new Book("Wind and Truth", "Brandon Sanderson");
-            Library biblioteca = new Library("Barça", "Aqui");
-            Console.WriteLine("{0}, {1}, {2}", llibre1.Name, llibre1.Author, biblioteca.Name);
+            Building edifici = new Building("Wind and Truth", 1500);
+            Room sala = new Room(80, "Aqui");
+            Console.WriteLine("{0}, {1}, {2}, {3}", edifici.Name, edifici.Floors, sala.Surface, sala.Type);
         }
     }
 }
