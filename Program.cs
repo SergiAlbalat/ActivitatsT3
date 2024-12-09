@@ -5,9 +5,9 @@ namespace ActivitatsT3
     {
         public static void Main()
         {
-            Player jugador1 = new Player("Messi", 30);
-            Team equip1 = new Team("Barça");
-            Console.WriteLine("{0}, {1}, {2}", jugador1.Name, jugador1.Age, equip1.Name);
+            Book llibre1 = new Book("Wind and Truth", "Brandon Sanderson");
+            Library biblioteca = new Library("Barça", "Aqui");
+            Console.WriteLine("{0}, {1}, {2}", llibre1.Name, llibre1.Author, biblioteca.Name);
         }
     }
 }
