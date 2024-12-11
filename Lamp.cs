@@ -1,15 +1,12 @@
 ﻿using System;
 namespace ActivitatsT3
 {
-    public class Lamp
+    public class Lamp : Furniture
     {
-        public string Color {  get; set; }
-
         public int Lumens {  get; set; }
 
-        public Lamp(string color, int lumens)
+        public Lamp(string name, string color, string description, int lumens) :base(name, color, description)
         {
-            Color = color;
             Lumens = lumens;
         }
     }
