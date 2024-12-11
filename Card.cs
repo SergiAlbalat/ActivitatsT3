@@ -1,19 +1,16 @@
 ﻿using System;
 namespace ActivitatsT3
 {
-    public class Card
+    public class Card : Games
     {
         public string Type { get; set; }
 
         public int Value { get; set; }
         
-        public Card(string type, int value)
+        public Card(int players, int difficultyLevel, string type, int value) : base(players, difficultyLevel)
         {
             Type = type;
             Value = value;
         }
-        public Card(string type) : this(type, 0) { }
-        public Card(int value) : this("Unspecified", value) { }
-        public Card() : this("Unspecified", 0) { }
     }
 }

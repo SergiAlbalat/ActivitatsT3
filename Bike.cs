@@ -5,16 +5,12 @@ using System.Text;
 
 namespace ActivitatsT3
 {
-    public class Bike
+    public class Bike : Vehicles
     {
-        public string Name { get; set; }
-        public string Color { get; set; }
         public int WheelSize { get; set; }
         public int GearNumber { get; set; }
-        public Bike(string name, string color, int wheelSize, int gearNumber)
+        public Bike(string name, string color, int wheelSize, int gearNumber) : base(name, color)
         {
-            Name = name;
-            Color = color;
             WheelSize = wheelSize;
             GearNumber = gearNumber;
         }
