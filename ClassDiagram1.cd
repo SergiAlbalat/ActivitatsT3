@@ -94,30 +94,40 @@
   <Class Name="ActivitatsT3.BookEx13">
     <Position X="7.5" Y="9" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAgAAAAABAAAAAAgAAAAAA=</HashCode>
       <FileName>BookEx13.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="ActivitatsT3.Revista">
     <Position X="5.75" Y="9" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAgAAAAABAAAAAAgAAAAAA=</HashCode>
       <FileName>Revista.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="ActivitatsT3.Diari">
     <Position X="9.5" Y="9" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAgAAAAABAAAAAAgAAAAAA=</HashCode>
       <FileName>Diari.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="ActivitatsT3.Biblioteca">
-    <Position X="11.75" Y="5.5" Width="1.5" />
+    <Position X="12.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Biblioteca.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Interface Name="ActivitatsT3.ILibrary">
+    <Position X="10.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILibrary.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

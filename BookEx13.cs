@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ActivitatsT3
 {
-    public class BookEx13 : Textos
+    public class BookEx13 : Textos, ILibrary
     {
         public BookEx13(string name, string editorial, string releaseDate, int volume, int pageNumber, string author, string category)
         {
@@ -20,5 +20,13 @@ namespace ActivitatsT3
         public BookEx13() : this("libro", "default", "0/0/0000", 0, 0, "Nobody", "Book") { }
         public override void NextPage() { }
         public override void Open() { }
+        public void Prestec()
+        {
+            throw new NotImplementedException();
+        }
+        public void Read()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
