@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Comment CommentText="Relacio d'agregació entre biblioteca i els tres tipus de textos">
-    <Position X="10.092" Y="7.478" Height="0.75" Width="1.7" />
+    <Position X="12.007" Y="6.1" Height="0.75" Width="1.7" />
   </Comment>
   <Class Name="ActivitatsT3.Card">
     <Position X="9.25" Y="3.25" Width="1.5" />
@@ -96,30 +96,65 @@
   </Class>
   <Class Name="ActivitatsT3.BookEx13">
     <Position X="7.5" Y="9" Width="1.5" />
+    <AssociationLine Name="Biblioteca" Type="ActivitatsT3.Biblioteca" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.625" Y="10.81" />
+        <Point X="8.625" Y="11.377" />
+        <Point X="13.688" Y="11.377" />
+        <Point X="13.688" Y="8.997" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAgAAAAABAAAAAAgAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAIABAAAAAAAAgAAAAAAAAAAAAgAAAAAA=</HashCode>
       <FileName>BookEx13.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Biblioteca" />
+    </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="ActivitatsT3.Revista">
     <Position X="5.75" Y="9" Width="1.5" />
+    <AssociationLine Name="Biblioteca" Type="ActivitatsT3.Biblioteca" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.875" Y="11.002" />
+        <Point X="6.875" Y="12.074" />
+        <Point X="14.698" Y="12.074" />
+        <Point X="14.698" Y="10.013" />
+        <Point X="14.688" Y="10.013" />
+        <Point X="14.688" Y="8.997" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAgAAAAABAAAAAAgAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAIABAAAAAAAAgAAAAABAAAAAAgAAAAAA=</HashCode>
       <FileName>Revista.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Biblioteca" />
+    </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="ActivitatsT3.Diari">
     <Position X="9.5" Y="9" Width="1.5" />
+    <AssociationLine Name="Biblioteca" Type="ActivitatsT3.Biblioteca" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11" Y="9.169" />
+        <Point X="12.183" Y="9.169" />
+        <Point X="12.183" Y="8.803" />
+        <Point X="13.5" Y="8.803" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAgAAAAABAAAAAAgAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAIABAAAAAAAAgAAAAAAAAAAAAgAAAAAA=</HashCode>
       <FileName>Diari.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Biblioteca" />
+    </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="ActivitatsT3.Biblioteca">
-    <Position X="12.75" Y="5.5" Width="1.5" />
+    <Position X="13.5" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Biblioteca.cs</FileName>
@@ -133,14 +168,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="ActivitatsT3.FurnitureEx17">
-    <Position X="2.25" Y="9" Width="1.5" />
+    <Position X="1.75" Y="9" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEAAAAAAAQAABAAAAAAAAAQAACAAAAAAAAAAABAAAAA=</HashCode>
+      <HashCode>AEAAAAAAAAAABAAAAAAAAAAAACAAAAAAAAAAABAAAAA=</HashCode>
       <FileName>FurnitureEx17.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="ActivitatsT3.HouseParts">
+    <Position X="1.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HouseParts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="ActivitatsT3.ILibrary">
-    <Position X="10.25" Y="5.5" Width="1.5" />
+    <Position X="10.25" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAA=</HashCode>
       <FileName>ILibrary.cs</FileName>

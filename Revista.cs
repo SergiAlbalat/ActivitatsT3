@@ -19,11 +19,20 @@ namespace ActivitatsT3
             Category = category;
         }
         public  Revista() : this("revista", "default", "0/0/0000", 0, 0, "Nobody", "Revista") { }
+
+        public Biblioteca Biblioteca
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public override void NextPage() { }
         public override void Open() { }
-        public void Prestec()
+        public bool Prestec()
         {
-            throw new NotImplementedException();
+            return false;
         }
         public void Read()
         {
