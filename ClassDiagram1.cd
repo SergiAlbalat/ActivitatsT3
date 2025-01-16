@@ -170,6 +170,15 @@
   <Class Name="ActivitatsT3.FurnitureEx17">
     <Position X="1.75" Y="9" Width="1.5" />
     <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAABAAAAAAAAAAAACAAAEAAAAAAABAAAAA=</HashCode>
+      <FileName>FurnitureEx17.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActivitatsT3.PaymentCard">
+    <Position X="11.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PaymentCard.cs</FileName>
       <HashCode>AEAAAAAAAAAABAAAAAAAAAAAACAAAAAAAAAAABAAAAA=</HashCode>
       <FileName>FurnitureEx17.cs</FileName>
     </TypeIdentifier>
