@@ -5,20 +5,16 @@ using System.Text;
 
 namespace ActivitatsT3
 {
-    public class FurnitureEx17
+    public class FurnitureEx17 : HouseParts
     {
         public float Weight { get; set; }
-        public double Price { get; set; }
         public bool Set {  get; set; }
-        public string? Name { get; set; }
         public string? Material { get; set; }
         public string? Colour { get; set; }
-        public FurnitureEx17(float weight, double price, bool set,  string? name, string? material, string? colour)
+        public FurnitureEx17(float weight, double price, bool set,  string? name, string? material, string? colour) : base(name,  price)
         {
             Weight = weight;
-            Price = price;
             Set = set;
-            Name = name;
             Material = material;
             Colour = colour;
         }
