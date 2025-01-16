@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 namespace ActivitatsT3
 {
     public class FurnitureEx17 : HouseParts
@@ -19,5 +15,6 @@ namespace ActivitatsT3
             Colour = colour;
         }
         public FurnitureEx17() : this(0.00f, 0.00, false, "furniture", null, null) { }
+        public override string GetInfo() => $"Name: {Name}, Price: {Price}, Weight: {Weight}, Set: {Set}, Material: {Material}, Colour: {Colour}";
     }
 }

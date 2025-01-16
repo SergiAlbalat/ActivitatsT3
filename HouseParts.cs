@@ -14,5 +14,6 @@ namespace ActivitatsT3
             Name = name;
             Price = price;
         }
+        public abstract string GetInfo();
     }
 }
