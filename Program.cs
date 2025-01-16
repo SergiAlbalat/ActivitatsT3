@@ -5,8 +5,9 @@ namespace ActivitatsT3
     {
         public static void Main()
         {
-            PaymentCard card = new PaymentCard(50);
-            Console.WriteLine(card);
+            Car myCar = new Car(0);
+            myCar.Refuel(50);
+            myCar.Drive();
         }
     }
 }
