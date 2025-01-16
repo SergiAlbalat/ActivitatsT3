@@ -3,7 +3,10 @@ namespace ActivitatsT3
 {
     public interface ILibrary
     {
-        void Prestec();
+        bool Prestec()
+        {
+            return true;
+        }
         void Read();
     }
 }

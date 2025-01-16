@@ -19,12 +19,17 @@ namespace ActivitatsT3
             Category = category;
         }
         public Diari() : this("diari", "default", "0/0/0000", 0, 0, "Nobody", "Diari") { }
+
+        public Biblioteca Biblioteca
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public override void NextPage() { }
         public override void Open() { }
-        public void Prestec()
-        {
-            throw new NotImplementedException();
-        }
         public void Read()
         {
             throw new NotImplementedException();
